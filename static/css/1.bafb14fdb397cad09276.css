@@ -1,0 +1,49 @@
+.create[data-v-554205f2] {
+    min-height: 90vh
+}
+
+.border-color-select[data-v-554205f2] {
+    height: 32px;
+    max-height: 32px
+}
+
+.fade-enter-active[data-v-554205f2], .fade-leave-active[data-v-554205f2] {
+    transition: opacity .3s
+}
+
+.fade-enter[data-v-554205f2], .fade-leave-to[data-v-554205f2] {
+    opacity: 0
+}
+
+.color-select-enter-active[data-v-554205f2], .color-select-leave-active[data-v-554205f2] {
+    transition: all .3s
+}
+
+.color-select-enter[data-v-554205f2] {
+    opacity: 0;
+    max-height: 32px
+}
+
+.color-select-leave-to[data-v-554205f2] {
+    opacity: 0;
+    max-height: 0
+}
+
+.border-preset-img-select[data-v-554205f2] {
+    height: 80px;
+    max-height: 80px
+}
+
+.preset-img-select-enter-active[data-v-554205f2], .preset-img-select-leave-active[data-v-554205f2] {
+    transition: all .3s
+}
+
+.preset-img-select-enter[data-v-554205f2] {
+    opacity: 0;
+    max-height: 32px
+}
+
+.preset-img-select-leave-to[data-v-554205f2] {
+    opacity: 0;
+    max-height: 0
+}

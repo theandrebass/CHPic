@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="title" content="Clubhouse Profile Pro" />
+        <meta name="description" content="Create highly customizable profile pictures for Clubhouse." />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Clubhouse Profile Pro" />
+        <meta property="og:url" content="https://www.chpic.xyz/" />
+        <meta property="og:description" content="Create highly customizable profile pictures for Clubhouse." />
+        <meta property="og:image" content="static/images/facebook.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Clubhouse Profile Pro" />
+        <meta name="twitter:description" content="Create highly customizable profile pictures for Clubhouse." />
+        <meta property="twitter:url" content="https://www.chpic.xyz/" />
+        <meta name="twitter:image" content="static/images/twitter.png" />
+        <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="static/images/icon/apple-touch-icon.png" >
+        <link rel="icon" type="image/png" sizes="32x32" href="static/images/icon/favicon-32x32.png" >
+        <link rel="icon" type="image/png" sizes="16x16" href="static/images/icon/favicon-16x16.png" >
+        <meta name="theme-color" content="#FFFCE8" />
+        <link href=/static/css/1.bafb14fdb397cad09276.css rel=preload as=style>
+        <link href=/static/css/2.6eb89ed7e51baa1469c6.css rel=preload as=style>
+        <link href=/static/js/1.afc4298ca7c091af8052.js rel=preload as=script>
+        <link href=/static/js/2.a1c10ded740cf2ebab67.js rel=preload as=script>
+        <link href=/static/css/app.93c58a70df97b6f0530f.css rel=stylesheet>
+    </head>
+
+    <body>
+        <noscript>You have to enable javascript to run this app.</noscript>
+        <div id=app></div>
+        <script>
+        let reload_notice = document.createElement("p");
+        reload_notice.innerHTML = "Please reload to use the latest version of the app.";
+        setTimeout(() => {
+            if (!V)
+                document.body.appendChild(reload_notice);
+        }, 5 * 1000);
+        let notive_interval = setInterval(() => {
+            if (V)
+                reload_notice.remove();
+        }, 1000);
+        setTimeout(() => {
+            clearInterval(notive_interval);
+            if (!V)
+                location.reload(true);
+        }, 20 * 1000);
+        </script>
+        <script src=/static/js/app.bcbf06e2ef26741f804f.js></script>
+    </body>
+</html>
